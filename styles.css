@@ -1,0 +1,346 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(62, 62, 62);
+}
+
+header{
+  background-color: rgb(38, 38, 38);
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero1 {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), 
+  rgba(0,0,0,0.1)), url('./images/html.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero2 {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), 
+  rgba(0,0,0,0.1)), url('./images/veau.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero3 {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), 
+  rgba(0,0,0,0.1)), url('./images/boeuf.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero4 {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), 
+  rgba(0,0,0,0.1)), url('./images/red.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(156, 138, 236, 0.61);
+}
+
+.p1{
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(30, 143, 255);
+  position: absolute;
+  left: 47%;
+}
+
+.content_title{
+  font-size: 35px;
+  text-align: center;
+  color: azure;
+  margin: 45px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 60px;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.content_main{
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+  margin-left: 60px;
+  padding: 2.5px;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.div1{
+  position: absolute;
+  bottom: 5%;
+  left: 43.7%;
+}
+
+.links{
+  font-size: 17px;
+  font-weight: bold;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid azure;
+  border-width: 2.3px;
+  border-radius: 15px;
+  padding: 10px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links:hover{
+  border-color: dodgerblue;
+  color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.links1{
+  font-size: 17px;
+  font-weight: bold;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid azure;
+  border-width: 2.3px;
+  border-radius: 15px;
+  padding: 10px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links1:hover{
+  border-color: dodgerblue;
+  color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.links2{
+  font-size: 17px;
+  font-weight: bold;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid azure;
+  border-width: 2.3px;
+  border-radius: 15px;
+  padding: 10px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links2:hover{
+  border-color: dodgerblue;
+  color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+
+
+.navbar{
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-branding{
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-branding:hover{
+  color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.previous1 {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-color: #fff;
+  border-width: 2.3px;
+  border-style: solid;
+  border-radius: 15px;
+  height: 60%; 
+  padding: 7px;
+}
+
+.previous1:hover {
+  cursor: pointer;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.previous1:active {
+  opacity: 0.6;
+}
+
+.next1 {
+  color: rgb(255, 255, 255);
+  border-color: #fff;
+  font-weight: bold;
+  border-width: 2.3px;
+  border-style: solid;
+  border-radius: 15px;
+  margin-left: 20px; 
+  padding: 7px;
+  height: 60%;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.next1:hover {
+  cursor: pointer;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.next1:active {
+  opacity: 0.6;
+}
+
+.previous2 {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-color: #fff;
+  border-width: 2.3px;
+  border-style: solid;
+  border-radius: 14px;
+  margin-top: 250px; 
+  padding: 7px;
+}
+
+.previous2:hover {
+  cursor: pointer;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.previous2:active {
+  opacity: 0.6;
+}
+
+.next2 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-color: #fff;
+  border-width: 2.3px;
+  border-style: solid;
+  border-radius: 14px;
+  margin-left: 20px; 
+  padding: 7px;
+  margin-top: 250px; 
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.next2:hover {
+  cursor: pointer;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.next2:active {
+  opacity: 0.6;
+}
+
+.previous3 {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-color: #fff;
+  border-width: 2.3px;
+  border-style: solid;
+  border-radius: 14px;
+  padding: 7px;
+  margin-top: 250px;
+}
+
+.previous3:hover {
+  cursor: pointer;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.previous3:active {
+  opacity: 0.6;
+}
+
+.next3 {
+  color: rgb(255, 255, 255);
+  border-color: #fff;
+  font-weight: bold;
+  border-width: 2.3px;
+  border-style: solid;
+  border-radius: 14px;
+  margin-left: 20px; 
+  padding: 7px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 250px;
+}
+
+.next3:hover {
+  cursor: pointer;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  transition: 0.3s ease;
+}
+
+.next3:active {
+  opacity: 0.6;
+}
+
